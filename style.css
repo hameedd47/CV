@@ -8,15 +8,15 @@ box-sizing: border-box;
 }
 :root{
 
-    --primary-color: #FFFFFF;
-    --text-color: #231F1F;
+    --primary-color: #231F1F;
+    --text-color: #FFFFFF;;
 }
 
 
 .drak-them{
 
-    --primary-color: #231F1F;
-    --text-color: #FFFFFF;
+    --primary-color: #FFFFFF ;
+    --text-color: #231F1F;
 
 }
 
@@ -76,7 +76,32 @@ gap: 2rem;
 
 max-width: 250px;
 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 300px;
+width: 300px;
+border-radius: 50%;
+
+
+
     }
+
+     #ff{
+
+        max-width: 250px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        
+
+    }
+
+ 
 
 .Fname{
 color: var(--text-color);
@@ -123,6 +148,9 @@ flex-direction: column;
     .profile_title{
 
         margin-top: 1rem;
+
+        font-size: 13px;
+
 
     }
 #idd{
